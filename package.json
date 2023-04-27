@@ -87,6 +87,35 @@
                 "type": "text",
                 "default": "https://open.spotify.com/",
                 "group": "homepage"
+            },
+            "title_font": {
+                "type": "select",
+                "options": [
+                    "Modern sans-serif",
+                    "Elegant serif"
+                ],
+                "default": "Modern sans-serif"
+            },
+            "white_logo_for_dark_mode": {
+                "type": "image"
+            },
+            "show_featured_posts": {
+                "type": "boolean",
+                "default": true,
+                "group": "homepage"
+            },
+            "show_related_posts": {
+                "type": "boolean",
+                "default": true,
+                "group": "post"
+            },
+            "body_font": {
+                "type": "select",
+                "options": [
+                    "Modern sans-serif",
+                    "Elegant serif"
+                ],
+                "default": "Modern sans-serif"
             }
         }
     },
