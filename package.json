@@ -44,7 +44,10 @@
         "custom": {
             "typography": {
                 "type": "select",
-                "options": ["Wide", "Narrow"],
+                "options": [
+                    "Wide",
+                    "Narrow"
+                ],
                 "default": "Wide"
             },
             "background_color": {
@@ -53,7 +56,11 @@
             },
             "navigation_layout": {
                 "type": "select",
-                "options": ["Logo on the left", "Logo in the middle", "Stacked"],
+                "options": [
+                    "Logo on the left",
+                    "Logo in the middle",
+                    "Stacked"
+                ],
                 "default": "Logo on the left"
             },
             "email_signup_text": {
